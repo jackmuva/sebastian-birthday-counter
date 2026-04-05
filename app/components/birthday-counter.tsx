@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 export const BirthdayCounter = () => {
-	const SEBASTIAN_BIRTHDAY = new Date("05 Mar 2026 12:41:12 GMT")
+	const SEBASTIAN_BIRTHDAY = new Date("05 Mar 2026 11:41:12 GMT")
 	const [timeDiff, setTimeDiff] = useState<number | null>(null);
 
 	useEffect(() => {
